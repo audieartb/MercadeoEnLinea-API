@@ -1,0 +1,33 @@
+{
+  "name": "me2_api",
+  "version": "1.0.0",
+  "description": "api for the me2 project",
+  "main": "index.js",
+  "scripts": {
+    "test": "dev-test",
+    "start": "nodemon index.js"
+  },
+  "author": "audie artavia",
+  "license": "ISC",
+  "dependencies": {
+    "@mailchimp/mailchimp_transactional": "^1.0.46",
+    "cors": "^2.8.5",
+    "debug": "^4.3.2",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-brute": "^1.0.1",
+    "helmet": "^4.6.0",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.29.1",
+    "mongoose": "^5.13.14",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.4",
+    "nodemailer": "^6.7.2",
+    "uuid": "^8.3.2",
+    "winston": "^3.3.3"
+  },
+  "devDependencies": {
+    "jslint": "^0.12.1",
+    "nodemon": "^2.0.7"
+  }
+}
